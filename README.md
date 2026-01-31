@@ -4,33 +4,26 @@ A simple web page that helps you see today’s Islamic prayer times along with t
 
 🔗 **Live site:** https://qiyamtimes.github.io/
 
----
-
 ## What it shows
 
 - **Daily salah times** — Fajr, Dhuhr, ‘Asr, Maghrib, and ‘Isha.
-- **Qiyam window** — the last third of the night, often recommended for night prayer.
-  - _Typical definition:_  
-    - **Night length** = time from **Maghrib** to **Fajr**  
-    - **Qiyam start** ≈ Maghrib + (2/3 × night length)  
-    - **Qiyam end** = Fajr
+- **Qiyam al-Layf** — starts ≈ Maghrib until the next day Fajr
+  - End of 1/3 of the night (start of 2/3 of the night)
+  - Midnight (Nisf al-layl)
+  - Last 1/3 of the night (end of 2/3 of the night)
 
-> Note: Exact calculations and methods can vary by convention; this page presents a straightforward, at-a-glance view.
+> Note: Exact calculations and methods can vary by convention
 
 ## Accuracy & methods
 
 Prayer time calculations depend on:
-- Your **location** (latitude/longitude)
+- Your **location** (latitude/longitude and without being prompt about location)
 - The **prayer calculation method** (e.g. Moonsighting Committe, Umm Al-Quara Universtiy, Makkah)
-
----
 
 ## Privacy
 
 - The page is hosted on **GitHub Pages**.  
 - There is no login and no obvious data entry required nor prompt for location
-
----
 
 ## Browser support
 
@@ -39,14 +32,11 @@ The page works in any modern desktop or mobile browser (Chrome, Edge, Firefox, S
 - Try disabling aggressive content blockers for this site
 - Try another browser
 
----
-
 ## Feedback
 
 If you spot an issue (timing, formatting, or accessibility), consider opening an issue on the project’s repository (if one is linked) or contacting the page owner.
 
----
-
 ## Acknowledgments
+This page uses the [Aladhan API](https://aladhan.com/prayer-times-api) for it's prayer times and wouldn't be possible to make this project without it. May Allah reward those who worked on this API
 
 May Allah accept your prayers. This page is intended as a convenience; always follow your local mosque or community guidance when in doubt.
