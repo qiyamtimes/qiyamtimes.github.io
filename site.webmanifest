@@ -1,6 +1,6 @@
 {
-  "name": "Qiyam Times",
-  "short_name": "QiyamTimes",
+  "name": "Qiyam and Prayer Times",
+  "short_name": "Qiyam and Prayer Times",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
